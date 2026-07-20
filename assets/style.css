@@ -1,0 +1,306 @@
+/* ==========================================================
+   AI DTP QA Agent - Professional Theme
+========================================================== */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* ==========================================================
+   Global
+========================================================== */
+
+html,
+body,
+[class*="css"]{
+    font-family: 'Inter', sans-serif;
+}
+
+.stApp{
+    background:#f4f7fc;
+}
+
+/* ==========================================================
+   Main Container
+========================================================== */
+
+.block-container{
+    max-width:1400px;
+    margin:auto;
+    padding-top:2rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-bottom:2rem;
+}
+/* ==========================================================
+   Header
+========================================================== */
+
+.app-header{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto 40px auto;
+
+    background:linear-gradient(135deg,#1565C0,#42A5F5);
+
+    border-radius:20px;
+    padding:45px;
+
+    text-align:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
+}
+
+.app-title{
+    font-size:48px;
+    font-weight:800;
+    color:#fff;
+    margin-bottom:10px;
+}
+
+.app-subtitle{
+
+    font-size:20px;
+
+    color:#EAF4FF;
+
+    font-weight:400;
+
+}
+
+/* ==========================================================
+   Section Title
+========================================================== */
+
+.section-title{
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:#1565C0;
+
+    margin-bottom:20px;
+
+}
+
+/* ==========================================================
+   Card
+========================================================== */
+
+.card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    border:1px solid #e8edf5;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    margin-bottom:25px;
+
+}
+
+/* ==========================================================
+   File Uploader
+========================================================== */
+
+[data-testid="stFileUploader"]{
+
+    border:2px dashed #1976D2;
+
+    border-radius:14px;
+
+    background:white;
+
+    padding:20px;
+
+}
+
+[data-testid="stFileUploader"]:hover{
+
+    border-color:#0E76FD;
+
+}
+
+/* ==========================================================
+   Select Box
+========================================================== */
+
+[data-baseweb="select"]{
+
+    border-radius:12px;
+
+}
+
+/* ==========================================================
+   Buttons
+========================================================== */
+
+.stButton>button{
+
+    width:100%;
+
+    height:58px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#1565C0;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.stButton>button:hover{
+
+    background:#0D47A1;
+
+    color:white;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 18px rgba(21,101,192,.35);
+
+}
+
+/* ==========================================================
+   Progress Bar
+========================================================== */
+
+.stProgress > div > div > div > div{
+
+    background:#1565C0;
+
+}
+
+/* ==========================================================
+   Messages
+========================================================== */
+
+.stSuccess{
+
+    border-radius:12px;
+
+}
+
+.stError{
+
+    border-radius:12px;
+
+}
+
+.stInfo{
+
+    border-radius:12px;
+
+}
+
+/* ==========================================================
+   Code Block
+========================================================== */
+
+pre{
+
+    border-radius:12px !important;
+
+    padding:18px !important;
+
+}
+
+/* ==========================================================
+   Divider
+========================================================== */
+
+hr{
+
+    margin-top:35px;
+
+    margin-bottom:35px;
+
+}
+
+/* ==========================================================
+   Metrics
+========================================================== */
+
+[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    border:1px solid #e8edf5;
+
+    box-shadow:0 6px 15px rgba(0,0,0,.08);
+
+}
+
+/* ==========================================================
+   Sidebar
+========================================================== */
+
+section[data-testid="stSidebar"]{
+
+    background:white;
+
+}
+
+/* ==========================================================
+   JSON Report
+========================================================== */
+
+.stCodeBlock{
+
+    border-radius:12px;
+
+}
+
+/* ==========================================================
+   Footer
+========================================================== */
+
+.footer{
+
+    text-align:center;
+
+    margin-top:50px;
+
+    color:#777;
+
+    font-size:14px;
+
+}
+
+/* ==========================================================
+   Hide Streamlit Menu & Footer
+========================================================== */
+
+#MainMenu{
+
+    visibility:hidden;
+
+}
+
+footer{
+
+    visibility:hidden;
+
+}
+
+header{
+
+    visibility:hidden;
+
+}

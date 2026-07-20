@@ -1,0 +1,206 @@
+DOCUMENT INFORMATION
+----------------------
+
+Source Language: English
+Target Language: Spanish
+
+
+OVERALL STATUS
+---------------
+
+FAIL
+
+
+QA SUMMARY
+----------
+
+Total Pages: 2
+Pages With Issues: 2
+Total Issues: 23
+High Severity: 12
+Medium Severity: 3
+Low Severity: 8
+
+
+PAGE 1
+--------
+
+Issue 1
+--------
+
+Type: Paragraph
+Severity: HIGH
+Status: OVERFLOW
+Problem: Text overflow detected.
+Recommendation: Increase text frame or reduce font size.
+
+Issue 2
+--------
+
+Type: Image
+Severity: LOW
+Status: MOVED
+Problem: Image position changed.
+Recommendation: Align image with source.
+
+Issue 3
+--------
+
+Type: Paragraph
+Severity: HIGH
+Status: MOVED
+Problem: Paragraph position changed.
+Recommendation: Align with source document.
+
+Issue 4
+--------
+
+Type: Paragraph
+Severity: MEDIUM
+Status: PAGE_MOVED
+Problem: Paragraph moved to another page.
+Recommendation: Move back to correct page.
+
+Issue 5
+--------
+
+Type: Image
+Severity: HIGH
+Status: MISSING
+Problem: Image is missing.
+Recommendation: Insert the missing image.
+
+Issue 6
+--------
+
+Type: Image
+Severity: HIGH
+Status: MISSING
+Problem: Image is missing.
+Recommendation: Insert the missing image.
+
+Issue 7
+--------
+
+Type: Image
+Severity: HIGH
+Status: MISSING
+Problem: Image is missing.
+Recommendation: Insert the missing image.
+
+Issue 8
+--------
+
+Type: Image
+Severity: HIGH
+Status: MISSING
+Problem: Image is missing.
+Recommendation: Insert the missing image.
+
+Issue 9
+--------
+
+Type: Paragraph
+Severity: LOW
+Status: MOVED
+Problem: Paragraph position changed.
+Recommendation: Align with source document.
+
+Issue 10
+---------
+
+Type: Image
+Severity: LOW
+Status: MOVED
+Problem: Image position changed.
+Recommendation: Align image with source.
+
+Issue 11
+---------
+
+Type: Image
+Severity: LOW
+Status: MOVED
+Problem: Image position changed.
+Recommendation: Align image with source.
+
+Issue 12
+---------
+
+Type: Paragraph
+Severity: MEDIUM
+Status: PAGE_MOVED
+Problem: Paragraph moved to another page.
+Recommendation: Move back to correct page.
+
+
+PAGE 2
+--------
+
+Issue 1
+--------
+
+Type: Paragraph
+Severity: HIGH
+Status: OVERFLOW
+Problem: Text overflow detected.
+Recommendation: Increase text frame or reduce font size.
+
+Issue 2
+--------
+
+Type: Paragraph
+Severity: MEDIUM
+Status: PAGE_MOVED
+Problem: Paragraph moved to another page.
+Recommendation: Move back to correct page.
+
+Issue 3
+--------
+
+Type: Image
+Severity: LOW
+Status: MOVED
+Problem: Image position changed.
+Recommendation: Align image with source.
+
+Issue 4
+--------
+
+Type: Paragraph
+Severity: HIGH
+Status: UNDERFLOW
+Problem: Text underflow detected.
+Recommendation: Reduce frame height or verify content.
+
+Issue 5
+--------
+
+Type: Image
+Severity: HIGH
+Status: MISSING
+Problem: Image is missing.
+Recommendation: Insert the missing image.
+
+
+DESIGNER ACTION ITEMS
+---------------------
+
+HIGH PRIORITY
+
+- Check for missing images and insert them accordingly.
+- Ensure that paragraphs are not moved to other pages and align with source document.
+
+MEDIUM PRIORITY
+
+- Verify that page flow is correct and there are no layout changes.
+
+LOW PRIORITY
+
+- Review the text frames and font sizes to ensure they meet design requirements.
+
+
+FINAL REMARK
+--------------
+
+The project requires further attention to ensure it meets design standards. It is recommended to review the content carefully and make necessary adjustments to avoid any further issues.
